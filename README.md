@@ -1,6 +1,6 @@
 # 烬途 · 长夜猎行 v4
 
-An original horizontal browser action adaptation drawing on Bloodborne's exploration/story structure and Dead Cells/DFO combat and equipment ideas. The active renderer is Canvas 2D; the earlier Three.js prototype is retained but unused.
+An original horizontal browser action adaptation drawing on Bloodborne's exploration/story structure and Dead Cells/DFO combat and equipment ideas. The active renderer is Canvas 2D and has replaced the earlier Three.js prototype.
 
 ## Playable scope
 
