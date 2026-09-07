@@ -1,0 +1,11 @@
+{
+  "name": "emberfall",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check dist/main.js && node --check dist/engine.js && node --check dist/campaign.js && node --check dist/hunt-content.js && node --check dist/hunt-expansion.js && node --check dist/hunt-ui.js && node --check dist/pixel-scene.js",
+    "test": "node --test tests/*.test.js",
+    "dev": "node scripts/dev-server.mjs"
+  }
+}

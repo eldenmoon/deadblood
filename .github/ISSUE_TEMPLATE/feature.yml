@@ -1,0 +1,22 @@
+name: Feature / 需求
+description: 定义下一个可验收的改进
+title: '[Feature] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 玩家现在遇到什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 希望的玩法或表现
+      description: 可以附参考，但说明本作应该如何改编。
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 如何确认完成？
+      description: 写成可观察的游戏行为或视觉条件。

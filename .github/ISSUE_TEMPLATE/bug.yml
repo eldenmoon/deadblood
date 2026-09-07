@@ -1,0 +1,32 @@
+name: Bug / 游戏问题
+description: 报告卡住、战斗、任务或存档异常
+title: '[Bug] '
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / 浏览器 / 设备
+      placeholder: v4 / Chrome / PC 键盘
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 地图、武器及强化、最后几个按键、预期和实际结果。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图、录像与复现频率
+      description: 如提供存档，请先确认愿意共享其中的进度；不要上传凭据。
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 影响
+      options:
+        - 无法继续游戏 / 存档异常
+        - 战斗或任务功能错误
+        - 视觉或提示问题
+        - 难度或平衡反馈

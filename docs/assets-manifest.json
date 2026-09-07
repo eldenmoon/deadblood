@@ -1,0 +1,105 @@
+{
+  "version": "1.4.0",
+  "encoding": "WebP quality 90 from archived generated PNG sources",
+  "assets": [
+    {
+      "path": "dist/assets/combat-fx-v4.webp",
+      "bytes": 695490,
+      "sha256": "c80819fc0826d3b397ae0288f11b535ed030c4461c226306f4f0aed519467eb2",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "parry, slash, fire, ice; 4 columns x 4 rows"
+    },
+    {
+      "path": "dist/assets/dream.webp",
+      "bytes": 400540,
+      "sha256": "44f0433a1ee279e0162539aaf96d9d8ceb1a7033b9a10a2fc59d82f57a823603",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "Hunter Dream background"
+    },
+    {
+      "path": "dist/assets/dungeon.webp",
+      "bytes": 226580,
+      "sha256": "cfa6bd134b674cc13c9a136b704042db5edc80533176a282421c1fa713241210",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "legacy background"
+    },
+    {
+      "path": "dist/assets/enemies.webp",
+      "bytes": 625700,
+      "sha256": "9dbb3a182ac07c4f45fec16944c9d7ebe2cef9639e8fc48425e59a34367b2eda",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "legacy enemy pose atlas"
+    },
+    {
+      "path": "dist/assets/equipment-v4.webp",
+      "bytes": 540200,
+      "sha256": "7f261b9b30a636d31c622c4f7f5dd9241ecbddc9bfd5fbac2952b3c3d44c35c7",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGBA",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "20 icons; 5 columns x 4 rows"
+    },
+    {
+      "path": "dist/assets/hero.webp",
+      "bytes": 388484,
+      "sha256": "d6bb5f4202f03340d9376f5dbf379a6120b9e39e2a18dccf2bcbb5df1b5487af",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "player 6x4 pose atlas"
+    },
+    {
+      "path": "dist/assets/hunt-enemies.webp",
+      "bytes": 751544,
+      "sha256": "93ed8bb3006e18f67bdf5388faa24e2058b510a6c8c52e7d61491b1783cb3115",
+      "width": 1086,
+      "height": 1448,
+      "mode": "RGBA",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "8 enemy archetypes, 6 poses per row"
+    },
+    {
+      "path": "dist/assets/npcs-v4.webp",
+      "bytes": 472070,
+      "sha256": "bb92091d441f9bfb9683f416b708052587cba5b59a810690b7309c61f86f3840",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "Doll, mentor, crow hunter; 4 idle poses each"
+    },
+    {
+      "path": "dist/assets/yharnam.webp",
+      "bytes": 288256,
+      "sha256": "026169c51113ed34ccf2148e5007de6647e7466fd6c1e10b64eef0b23557a3b3",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "loaded": true,
+      "source": "Generated original project asset",
+      "role": "Central Yharnam background"
+    }
+  ]
+}
