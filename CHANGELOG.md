@@ -1,5 +1,10 @@
 # Changelog
 
+## Demo production plan — 2026-09-08 — documentation only
+
+- Add a proposed Blender-to-2D/Godot production workflow, D0–D4 deliverables, user/AI responsibilities, conditional schedule and first implementation task.
+- Link the plan from the requirements. No engine migration, asset production or runtime change was performed.
+
 ## Design review — 2026-09-08 — documentation only
 
 - Record the user's Steam target and the request to discuss the plan before implementation.
