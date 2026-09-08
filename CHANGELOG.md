@@ -1,5 +1,13 @@
 # Changelog
 
+## Design review — 2026-09-08 — documentation only
+
+- Record the user's Steam target and the request to discuss the plan before implementation.
+- Reopen animation, weapon handling, combat feedback and environmental art acceptance after user playtest feedback.
+- Add R09–R12 and a lasting art requirement covering believable window/door/ladder integration, material consistency, occlusion and editable source assets.
+- Record screenshot/source findings and proposed production gates. Engine migration, original IP direction and slice scope remain proposals.
+- No runtime, asset or deployment change; no new playthrough or browser regression claimed.
+
 ## 1.4.0 — 长夜猎行 v4 — 2026-09-07
 
 - Split Central Yharnam into connected streets, dry dock/canal, optional bridge and cemetery.
