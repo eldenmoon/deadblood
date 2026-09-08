@@ -1,6 +1,36 @@
-# 烬途 · 长夜猎行 v4
+# Deadblood · 烬途
 
-An original horizontal browser action adaptation drawing on Bloodborne's exploration/story structure and Dead Cells/DFO combat and equipment ideas. The active renderer is Canvas 2D and has replaced the earlier Three.js prototype.
+当前可运行的是 **v4 浏览器功能原型（JavaScript + Canvas 2D）**。Godot + Blender Demo 仍处于制作计划阶段；仓库尚无 `project.godot`、Godot 场景或 `.blend` 文件。动作、美术和可玩性尚未通过商业品质验收。
+
+## 立即运行现有原型
+
+前提：Git、Node.js 22（与当前 CI 一致）。项目没有第三方 npm 依赖，不需要 `npm install` 或构建。
+
+```bash
+git clone https://github.com/eldenmoon/deadblood.git
+cd deadblood
+npm run dev -- --host 127.0.0.1
+```
+
+在同一台机器的浏览器打开 http://127.0.0.1:4173/ 。终端保持运行，按 `Ctrl+C` 停止。校验命令为 `npm run check` 和 `npm test`。
+
+[Mac mini M4 配置与启动](docs/mac-mini-setup.md) · [Demo 制作计划](docs/demo-production-plan.md) · [最新需求与质量门槛](docs/requirements.md)
+
+## 仓库用途与整理边界
+
+| 当前目录 | 用途与处理 |
+| --- | --- |
+| `dist/` | 原型的手写源代码，目录名虽然像构建输出，但不能当缓存删除 |
+| `dist/assets/` | 原型实际引用的 9 张 WebP；与代码一起保留，供复现和视觉参考 |
+| `tests/` | 行为回归及开发浏览器工具；Godot 迁移时复用测试场景与验收规则，JavaScript 测试不能直接运行 GDScript |
+| `scripts/` | 当前原型启动脚本 |
+| `docs/` | 需求、故事、资产清单、历史研究、制作计划与配置说明 |
+
+后续在同一仓库新增 `game/`（Godot）、`art-src/`（可编辑源资产）、`tools/`（离线导出工具）；这些目录在开始实际制作时创建。现阶段保留可运行原型，不做无收益的目录搬迁。Godot 样板稳定后，才讨论将旧应用移入专门的原型目录，并同步修改启动、测试与部署路径。
+
+原型完整代码和运行图的固定参考点：[v4 源码快照](https://github.com/eldenmoon/deadblood/tree/36daad0b79e01e95ef1a8b66f378ebf1f6329026)。主干文档会继续更新。资产如何保留和复用见 [资产管理](docs/assets.md)。
+
+A browser combat/exploration prototype drawing on Bloodborne's exploration/story structure and Dead Cells/DFO combat and equipment ideas. The active renderer is Canvas 2D and has replaced the earlier Three.js prototype.
 
 ## Playable scope
 
@@ -10,7 +40,7 @@ A new protagonist opening, three NPC quest segments, an exclusive brooch choice,
 
 ## Maintenance
 
-[Requirements](docs/requirements.md), [roadmap](docs/roadmap.md), [asset guide](docs/assets.md), [asset manifest](docs/assets-manifest.json), [changelog](CHANGELOG.md) and AGENTS.md form the iteration baseline. Issue/PR templates and a GitHub Actions check workflow are prepared. The workflow has not run on GitHub before the repository is created; local equivalent checks passed.
+[Requirements](docs/requirements.md), [roadmap](docs/roadmap.md), [asset guide](docs/assets.md), [asset manifest](docs/assets-manifest.json), [changelog](CHANGELOG.md) and AGENTS.md form the iteration baseline. Issue/PR templates and a GitHub Actions check workflow are committed. Check the repository's Actions page for the latest remote result; historical local checks do not establish current remote CI status.
 
 ## Controls
 
