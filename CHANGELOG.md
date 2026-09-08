@@ -1,5 +1,12 @@
 # Changelog
 
+## Repository orientation and Mac setup — 2026-09-08 — documentation only
+
+- Add a prominent current-prototype startup command and clarify that `dist/` contains authored source.
+- Add Mac mini M4 setup instructions and distinguish the running JS prototype from the not-yet-created Godot/Blender project.
+- Document runtime-asset retention, source-asset availability and the fixed v4 reference snapshot.
+- Keep runtime files, asset paths, existing tests and deployment unchanged. Mac instructions were reviewed against repository scripts and official documentation, not executed on the user's Mac.
+
 ## Demo production plan — 2026-09-08 — documentation only
 
 - Add a proposed Blender-to-2D/Godot production workflow, D0–D4 deliverables, user/AI responsibilities, conditional schedule and first implementation task.
